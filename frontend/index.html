@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foodie Flow</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* full screen height */
+      margin: 0;
+      background-color: #fdfdfd;
+    }
+
+    .container {
+      text-align: center; /* center text */
+      max-width: 600px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    p, ul {
+      margin: 10px 0;
+      padding: 0;
+      list-style-position: inside;
+      text-align: left;
+    }
+
+    button {
+      margin: 8px;
+      padding: 10px 15px;
+      border: none;
+      background-color: #e74c3c;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #c0392b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Welcome to Foodie Flow! 🍲</h2>
+    <p>Your gateway to a world of recipes tailored just for you.</p>
+    <ul>
+      <li>🌟 First, pick your <b>mood</b> to match meals with how you feel.</li>
+      <li>☁️ Then, check the <b>weather</b> to suggest comforting choices.</li>
+      <li>🍅 Next, explore your <b>pantry</b> to use what you already have.</li>
+      <li>🥦 Finally, we respect your <b>health preferences</b> for safe meals.</li>
+    </ul>
+
+    <div>
+      <button onclick="location.href='mood.html'">Pick Mood</button>
+      <button onclick="location.href='weather.html'">Pick Weather</button>
+      <button onclick="location.href='pantry.html'">Pick Pantry</button>
+      <button onclick="location.href='health.html'">Pick Health</button>
+    </div>
+  </div>
+</body>
+</html>

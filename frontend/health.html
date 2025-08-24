@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick Health</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Pick Health Preference</h2>
+    <button onclick="getRecipes('health', 'vegan')">🥦 Vegan</button>
+    <button onclick="getRecipes('health', 'diabetic')">🩸 Diabetic</button>
+    <button onclick="getRecipes('health', 'glutenfree')">🌾 Gluten Free</button>
+    <button onclick="getRecipes('health', 'keto')">🥩 Keto</button>
+
+    <div id="results"></div>
+    <a href="index.html">⬅ Back to Home</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

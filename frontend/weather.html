@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Pick Weather</h2>
+    <button onclick="getRecipes('weather', 'sunny')">☀️ Sunny</button>
+    <button onclick="getRecipes('weather', 'rainy')">🌧 Rainy</button>
+    <button onclick="getRecipes('weather', 'cold')">❄️ Cold</button>
+    <button onclick="getRecipes('weather', 'hot')">🔥 Hot</button>
+
+    <div id="results"></div>
+    <a href="index.html">⬅ Back to Home</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
